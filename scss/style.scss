@@ -393,7 +393,7 @@ body {
 
   .app-pool {
     padding: 80px 0;
-    background: url(../img/fill-bg.png) no-repeat center fixed;
+    background: url(../img/fill-bg.jpg) no-repeat center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -455,4 +455,156 @@ body {
     width: 100%;
     text-align: center;
     padding-bottom: 24px;
+  }
+
+  .mob {
+    display: none;
+  }
+
+  @media screen and (max-width: 800px) { 
+
+    .mob {
+      display: block;
+      margin-top: 32px;
+    }
+
+    .main-header { 
+      display: none;
+    }
+
+    .main-hero {
+      display: flex;
+      align-items: center;
+  
+      & .heading {
+        max-width: 100%;
+        width: 100%;
+      }
+  
+      & .caption {
+        margin: 16px 0;
+      }
+  
+      & .main-logo {
+        width: 200px;
+        margin-bottom: 24px;
+      }
+    }
+
+    .heading {
+      color: $dark;
+  
+      &.lg {
+        font-size: 32px;
+        line-height: 48px;
+      }
+  
+      &.md {
+        font-size: 24px;
+        line-height: 32px;
+      }
+  
+      &.sm {
+        font-size: 18px;
+        line-height: 32px;
+      }
+  
+      &.primary {
+        color: $primary-color;
+      }
+  
+    }
+  
+    .caption {
+  
+      color: $dark;
+  
+      &.lg {
+        font-size: 24px;
+        line-height: 48px;
+      }
+  
+      &.md {
+        font-size: 18px;
+        line-height: 40px;
+      }
+  
+      &.sm {
+        font-size: 16px;
+        line-height: 40px;
+      }
+  
+    }
+  
+    .featured-icon {
+      font-size: 72px;
+      display: block;
+      margin-bottom: 32px;
+      color: $primary-color;
+    }
+
+    .primary-btn {
+       max-width: 100%;
+       text-align: center;
+       display: block;
+       width: 100%;
+    }
+
+    .w-lg {
+      font-weight: 400;
+    }
+    .heading.primary {
+      font-size: 24px;
+    }
+
+    .article-title {
+      & .heading {
+        font-size: 32px;
+        font-weight: 600;
+      }
+        & .caption {
+          color: $subtle-dark;
+        }
+      }
+
+      .white {
+        color: #FFF;
+      }
+
+      .content-holder {
+        & .heading.lg {
+          font-weight: 600;
+        } 
+      }
+
+      .image-holder {
+        margin-top: 32px;
+      }
+
+      .app-pool {
+        background-attachment: local;
+      }
+
+      .content-holder.centered {
+        text-align: left;
+      }
+
+      .whatsgood-info {
+        margin-bottom: 40px;
+      }
+    .spread {
+      padding: 24px 0;
+    }
+
+    .tag-holder {
+      flex-direction: column;
+
+      & .tag-neutral {
+        margin: 24px 0;
+      }
+    }
+  
+    br {
+      display: none;
+    }
   }
