@@ -10,6 +10,10 @@ $accent-shadow: 0px 40px 90px rgba(0, 0, 0, 0.16);
 $star-accent: rgba(255,230,9,1);
 $__transition: all .4s ease-in-out;
 
+html.sr .load-hidden {
+  visibility: hidden;
+}
+
 
 //Imports & Global Styles
 
@@ -311,10 +315,7 @@ body {
        bottom: 0;
        left: 0;
       background: url(../img/devices.png) no-repeat center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;   
+      background-size: auto;
   }
   }
 

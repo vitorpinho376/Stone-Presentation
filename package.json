@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/vitorpinho376/Stone-Presentation/issues"
   },
-  "homepage": "https:github.com/vitorpinho376/Stone-Presentation/#readme",
+  "homepage": "https://github.com/vitorpinho376/Stone-Presentation/#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "jquery": "^3.5.0",

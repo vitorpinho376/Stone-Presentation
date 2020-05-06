@@ -1,3 +1,6 @@
+html.sr .load-hidden {
+  visibility: hidden; }
+
 /*!
  * Bootstrap Reboot v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -3062,10 +3065,7 @@ body {
     bottom: 0;
     left: 0;
     background: url(../img/devices.png) no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; }
+    background-size: auto; }
 
 .about-wg {
   background: rgba(237, 238, 241, 0.1);
