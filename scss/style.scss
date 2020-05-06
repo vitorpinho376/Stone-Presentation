@@ -596,6 +596,12 @@ body {
         }
     }
 
+    .store-btn {
+      & img {
+        width: 140px;
+      }
+    }
+
     .link {
       display: block;
       margin: 24px 0;

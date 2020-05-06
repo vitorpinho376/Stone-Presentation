@@ -3244,6 +3244,8 @@ footer {
     flex-direction: column; }
     .multiple-image-holder img {
       max-width: 100%; }
+  .store-btn img {
+    width: 140px; }
   .link {
     display: block;
     margin: 24px 0;
