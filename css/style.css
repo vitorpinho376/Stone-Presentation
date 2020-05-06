@@ -3167,12 +3167,12 @@ footer {
   padding-bottom: 24px; }
 
 .mob {
-  display: none; }
+  display: none !important; }
 
 @media screen and (max-width: 800px) {
   .mob {
-    display: block;
-    margin-top: 32px; }
+    display: block !important;
+    padding: 32px; }
   .main-header {
     display: none; }
   .main-hero {
