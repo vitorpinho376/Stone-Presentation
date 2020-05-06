@@ -583,7 +583,25 @@ body {
 
       .app-pool {
         background-attachment: local;
+        & img {
+          width: 70%;
+        }
       }
+
+      .multiple-image-holder {
+        display: flex;
+        flex-direction: column;
+        & img {
+          max-width: 100%;
+        }
+    }
+
+    .link {
+      display: block;
+      margin: 24px 0;
+      font-size: 56px;
+      padding: 16px;
+  }
 
       .content-holder.centered {
         text-align: left;
@@ -606,5 +624,15 @@ body {
   
     br {
       display: none;
+    }
+
+    .image-full-holder {
+      background-color: #FF4411;
+      height: 800px;
+      overflow: hidden;
+      position: relative;
+      &:after {
+        background-attachment: local;
+    }
     }
   }

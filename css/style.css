@@ -3237,6 +3237,18 @@ footer {
     margin-top: 32px; }
   .app-pool {
     background-attachment: local; }
+    .app-pool img {
+      width: 70%; }
+  .multiple-image-holder {
+    display: flex;
+    flex-direction: column; }
+    .multiple-image-holder img {
+      max-width: 100%; }
+  .link {
+    display: block;
+    margin: 24px 0;
+    font-size: 56px;
+    padding: 16px; }
   .content-holder.centered {
     text-align: left; }
   .whatsgood-info {
@@ -3248,4 +3260,11 @@ footer {
     .tag-holder .tag-neutral {
       margin: 24px 0; }
   br {
-    display: none; } }
+    display: none; }
+  .image-full-holder {
+    background-color: #FF4411;
+    height: 800px;
+    overflow: hidden;
+    position: relative; }
+    .image-full-holder:after {
+      background-attachment: local; } }
